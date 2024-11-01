@@ -6,7 +6,7 @@
 /*   By: smomeu <smoemu@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/08 14:56:11 by smomeu            #+#    #+#             */
-/*   Updated: 2024/10/29 16:43:39 by smomeu           ###   ########.fr       */
+/*   Updated: 2024/11/01 19:35:37 by smomeu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,8 +46,9 @@ int	main(void)
 	size = sizeof(src) / sizeof(src[0]);
 	size = 3;
 	x = ft_strlcpy(dest, src, size);
-	printf("Source: %s\n", src);
-	printf("Destination: %s\n", dest);
-	printf("%d", x);
+	printf("src:\t%s\n", src);
+	printf("dst:\t%s\n", dest);
+	printf("size:\t%zu\n", size);
+	printf("return:\t%d", x);
 	return (0);
 }
